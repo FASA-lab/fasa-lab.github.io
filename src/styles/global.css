@@ -367,3 +367,4 @@ a.lockup{flex-direction:row;align-items:center}
 
 /* Obfuscated email ("name at domain"): plain text, no mailto link, so scrapers don't harvest it */
 .email-text{font-family:var(--sans);color:var(--fg)}
+.grid-3 .person-body .email-text{display:inline-block;margin-top:var(--s1);white-space:nowrap;font-size:.88rem}
