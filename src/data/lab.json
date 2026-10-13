@@ -1,0 +1,64 @@
+{
+ "tagline": "We study the forensics, auditing, and security of software, systems, and AI agents.",
+ "about": [
+  "FAS³A (pronounced “FASA”), the Forensics, Auditing, and Security of Software, Systems, and Agents lab, focuses on the forensics, auditing, and security of software, computer systems, and AI agents. We develop practical techniques to investigate attacks when they happen, to keep trustworthy records of what software, systems, and agents do, and to make them more secure and reliable.",
+  "Our foundation is in cyber forensics and software security. Our published work spans attack reconstruction, audit logging and provenance tracking for attack investigation, and program analysis for finding vulnerabilities, applied to web, mobile, IoT, and cyber-physical systems.",
+  "We are extending this line of research toward AI agents: how to investigate incidents that involve them, how to audit what they do, and how to secure them. This is a research direction of the lab."
+ ],
+ "pi": {
+  "name": "Kyu Hyung Lee",
+  "title": [
+   "Associate Professor",
+   "Director of Graduate Studies, School of Computing",
+   "Associate Director, Institute for Cybersecurity and Privacy"
+  ],
+  "affiliation": "School of Computing, University of Georgia (UGA)",
+  "email": "kyuhlee@cs.uga.edu",
+  "home": "https://kyuhlee.github.io/",
+  "bio": "Ph.D. in Computer Science, Purdue University (co-advised by Xiangyu Zhang and Dongyan Xu). M.S. and B.S. in Computer Engineering, Hong-Ik University, Korea (M.S. advisor: Sam H. Noh). Research focuses on software security and cyber forensics: practical solutions to improve the security and reliability of software and systems, and fundamental primitives to analyze and investigate advanced cyber-attacks.",
+  "photo": null
+ },
+ "interests": [
+  "Cyber forensics",
+  "Auditing and provenance",
+  "Software security",
+  "Program analysis",
+  "System security",
+  "Distributed systems",
+  "AI agent security",
+  "Mobile security"
+ ],
+ "researchAreas": [
+  {
+   "id": "software",
+   "title": "Software Security",
+   "desc": "Program analysis for finding vulnerabilities, testing web applications, and protecting program logic."
+  },
+  {
+   "id": "systems",
+   "title": "System Security",
+   "desc": "Forensic reconstruction of attacks, audit logging and provenance tracking, plus record-and-replay and debugging of distributed systems."
+  },
+  {
+   "id": "ai-agents",
+   "title": "AI Agent Security",
+   "desc": "Investigating incidents that involve AI agents, auditing their actions, and securing them."
+  },
+  {
+   "id": "iot-mobile-cps",
+   "title": "IoT, Mobile & Cyber-Physical Security",
+   "desc": "Security and privacy of smart-home, mobile, and energy-infrastructure systems."
+  }
+ ],
+ "join": {
+  "intro": "Anyone interested in our research is welcome to join us. We welcome graduate and undergraduate students who are curious about the forensics, auditing, and security of software, systems, and AI agents. If you would like to work with us, please send an email."
+ },
+ "researchSummary": "Our research covers the forensics, auditing, and security of software, systems, and AI agents: practical techniques to investigate attacks when they happen, to audit what these systems do, and to make them more secure and reliable.",
+ "currentProjects": {
+  "software": 1,
+  "systems": 1,
+  "ai-agents": 2,
+  "iot-mobile-cps": 0
+ },
+ "heroEyebrow": "University of Georgia"
+}

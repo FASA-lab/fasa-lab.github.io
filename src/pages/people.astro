@@ -1,0 +1,35 @@
+---
+import Base from '../layouts/Base.astro';
+import PersonCard from '../components/PersonCard.astro';
+import lab from '../data/lab.json';
+import people from '../data/people.json';
+import { url } from '../utils';
+const pi = lab.pi;
+const cur = people.filter((p) => p.status === 'current');
+const alum = people.filter((p) => p.status === 'alumni');
+---
+<Base title="People" description="Principal investigator, current members, and alumni of the lab.">
+  <h1>People</h1>
+  <h2>Principal Investigator</h2>
+  <div class="card person pi-card">
+    <img class="avatar photo pi-photo" src={url('people/kyuhlee.jpg')} alt={pi.name} width="120" height="120" />
+    <div class="person-body">
+    <h3><a href={pi.home} target="_blank" rel="noopener noreferrer">{pi.name}</a></h3>
+    {pi.title.map((t) => <div>{t}</div>)}
+    <div class="muted">{pi.affiliation}</div>
+    <a class="email" href={`mailto:${pi.email}`}>{pi.email}</a><br />
+    <a href={pi.home} target="_blank" rel="noopener noreferrer">Personal page<span class="sr-only"> (opens in new tab)</span></a>
+    {pi.bio && <p>{pi.bio}</p>}
+    </div>
+  </div>
+  <h2>Current Students</h2>
+  <ul class="grid grid-3">
+    {cur.map((p) => <PersonCard person={p} />)}
+  </ul>
+  <h2>Alumni</h2>
+  <table>
+    <thead><tr><th scope="col">Name</th><th scope="col">Degree</th><th scope="col">Current position</th></tr></thead>
+    <tbody>{alum.map((p) => <tr><td>{p.name}</td><td>{p.role ?? '—'}</td><td>{p.next ?? '—'}</td></tr>)}</tbody>
+  </table>
+  <p class="muted credit"><small>Photo of the UGA Arch: <a href="https://commons.wikimedia.org/wiki/File:The_Arch,_UGA.jpg" target="_blank" rel="noopener noreferrer">“The Arch, UGA”</a> by JJonahJackalope, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> (resized and cropped to a thumbnail).</small></p>
+</Base>

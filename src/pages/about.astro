@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import lab from '../data/lab.json';
+---
+<Base title="About" description={lab.tagline}>
+  <h1>About</h1>
+  <p class="lead">{lab.tagline}</p>
+  {lab.about.map((t) => <p>{t}</p>)}
+</Base>

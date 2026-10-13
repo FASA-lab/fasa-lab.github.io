@@ -1,0 +1,98 @@
+[
+ {
+  "name": "Prabin Lamichhane",
+  "role": "Ph.D.",
+  "status": "current",
+  "link": "https://prabin-lc.github.io/",
+  "email": "prabin.lamichhane@uga.edu",
+  "photo": "people/prabin-lamichhane.jpg"
+ },
+ {
+  "name": "Junil Yeo",
+  "role": "Ph.D.",
+  "status": "current",
+  "email": "junil.yeo@uga.edu",
+  "photo": "people/junil-yeo.jpg"
+ },
+ {
+  "name": "Dipendra Shrestha",
+  "role": "M.S.",
+  "status": "current",
+  "email": "Dipendra.Shrestha@uga.edu",
+  "photo": "people/uga-arch.jpg"
+ },
+ {
+  "name": "An Chen",
+  "role": "Ph.D.",
+  "status": "alumni"
+ },
+ {
+  "name": "Basanta Chaulagain",
+  "role": "Ph.D.",
+  "status": "alumni"
+ },
+ {
+  "name": "Kevin Jain",
+  "role": "M.S.",
+  "status": "alumni"
+ },
+ {
+  "name": "Josh Messitte",
+  "role": "M.S.",
+  "status": "alumni"
+ },
+ {
+  "name": "Xingzi Yuan",
+  "role": "Ph.D.",
+  "year": 2021,
+  "status": "alumni",
+  "next": "Square"
+ },
+ {
+  "name": "Omid Setayeshfar",
+  "role": "Ph.D.",
+  "year": 2021,
+  "status": "alumni",
+  "next": "Facebook"
+ },
+ {
+  "name": "Ruoyan Cai",
+  "status": "alumni",
+  "next": "Amazon"
+ },
+ {
+  "name": "Sean Frankum",
+  "status": "alumni",
+  "next": "United States Department of Defense"
+ },
+ {
+  "name": "Akshay Kokane",
+  "status": "alumni",
+  "next": "Microsoft"
+ },
+ {
+  "name": "Matt Jones",
+  "status": "alumni",
+  "next": "Research Scientist, Georgia Tech Research Institute (CIPHER)"
+ },
+ {
+  "name": "Anderson Kunho Kim",
+  "status": "alumni",
+  "next": "Master's student, Georgia Tech"
+ },
+ {
+  "name": "Urvashi Sharma",
+  "status": "alumni",
+  "next": "Goldman Sachs"
+ },
+ {
+  "name": "Lovina D'mello",
+  "status": "alumni",
+  "next": "Oracle"
+ },
+ {
+  "name": "Pranav Panage",
+  "status": "alumni",
+  "next": "Shape Security"
+ }
+]

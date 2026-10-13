@@ -1,0 +1,12 @@
+---
+// Inline SVG icons (currentColor). name: external | pdf | star | shield | code
+const { name } = Astro.props;
+const paths: Record<string, string> = {
+  external: 'M14 4h6v6M20 4 10 14M18 14v6H4V6h6',
+  pdf: 'M6 3h9l4 4v14H6zM14 3v5h5',
+  star: 'M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z',
+  shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z',
+  code: 'M8 8l-5 4 5 4M16 8l5 4-5 4',
+};
+---
+<svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" stroke-linecap="round" stroke-linejoin="round"><path d={paths[name]} /></svg>

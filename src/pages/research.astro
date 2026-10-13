@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import lab from '../data/lab.json';
+import { visibleAreas } from '../utils';
+const areas = visibleAreas(lab.researchAreas);
+---
+<Base title="Research" description={lab.researchSummary}>
+  <h1>Research</h1>
+  <p class="lead">{lab.researchSummary}</p>
+  <p class="interests">{lab.interests.join(' · ')}</p>
+  <div class="areas">
+    {areas.map((a, i) => (
+      <section class="area" id={a.id}>
+        <span class="num">{String(i + 1).padStart(2, '0')}</span>
+        <h2>{a.title}</h2>
+        <p>{a.desc}</p>
+      </section>
+    ))}
+  </div>
+</Base>

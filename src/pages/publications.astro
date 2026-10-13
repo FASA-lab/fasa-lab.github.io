@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import PubItem from '../components/PubItem.astro';
+import pubs from '../data/publications.json';
+const groups = [...new Set(pubs.map((p) => p.group))]; // JSON order = newest first
+---
+<Base title="Publications" description="Publications from the lab, grouped by year.">
+  <h1>Publications</h1>
+  {groups.map((g) => (
+    <section class="pub-group">
+      <h2>{g}</h2>
+      <ul class="pubs">{pubs.filter((p) => p.group === g).map((p) => <PubItem p={p} />)}</ul>
+    </section>
+  ))}
+</Base>

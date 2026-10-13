@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import config from '../../site.config.json';
+import lab from '../data/lab.json';
+---
+<Base title="Join" description="Information for prospective students and collaborators.">
+  <h1>Join Us</h1>
+  <p><span class="badge">{config.recruiting.open ? 'Currently recruiting' : 'Not currently recruiting'}</span></p>
+  <p class="lead">{lab.join.intro}</p>
+  <h2 id="contact">Contact</h2>
+  <address class="join-contact">{lab.pi.name}<br />{config.address}<br /><a href={`mailto:${config.email}`}>{config.email}</a></address>
+</Base>

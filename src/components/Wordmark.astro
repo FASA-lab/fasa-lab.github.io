@@ -1,0 +1,9 @@
+---
+// Lab wordmark: renders "FAS³A" with a styled superscript 3.
+import config from '../../site.config.json';
+const [head, tail] = config.name.split('³');
+const { class: cls } = Astro.props;
+---
+{tail === undefined
+  ? <span class:list={['wordmark', cls]}>{config.name}</span>
+  : <span class:list={['wordmark', cls]} aria-label={config.name}><span aria-hidden="true">{head}<sup>3</sup>{tail}</span></span>}

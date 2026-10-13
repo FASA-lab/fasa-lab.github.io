@@ -1,0 +1,98 @@
+---
+import Base from '../layouts/Base.astro';
+import PubItem from '../components/PubItem.astro';
+import PersonCard from '../components/PersonCard.astro';
+import Wordmark from '../components/Wordmark.astro';
+import config from '../../site.config.json';
+import lab from '../data/lab.json';
+import pubs from '../data/publications.json';
+import people from '../data/people.json';
+import { url, isDev, isTodo, visibleAreas } from '../utils';
+// Key Publications: the "big four" security venues (IEEE S&P, USENIX Security, ACM CCS, NDSS) plus ICSE, newest first, max 12.
+const TOP_VENUES = /^(S&P|Security|CCS|NDSS|ICSE)\b/;
+const recent = pubs.filter((p) => p.abbr && TOP_VENUES.test(p.abbr)).sort((a, b) => b.year - a.year).slice(0, 12);
+const PERSONAL = lab.pi.home;
+const currentPeople = people.filter((p) => p.status === 'current');
+const cur = currentPeople.length;
+const alum = people.length - cur;
+const areas = visibleAreas(lab.researchAreas);
+const tagTodo = isTodo(lab.tagline);
+const pi = lab.pi;
+const projects: Record<string, number> = lab.currentProjects ?? {};
+const totalProjects = Object.values(projects).reduce((a, b) => a + b, 0);
+const initials = pi.name.split(' ').map((w) => w[0]).join('');
+---
+<Base>
+  <section class="hero bleed">
+    <div class="hero-inner">
+      <div class="hero-main">
+      <div class="hero-head">
+        <p class="hero-eyebrow">{lab.heroEyebrow}</p>
+        <h1 class="hero-title"><Wordmark /></h1>
+        <p class="hero-fullname">{config.fullName}</p>
+        {!tagTodo && <p class="hero-tagline">{lab.tagline}</p>}
+        {tagTodo && isDev && <p class="hero-tagline todo">{lab.tagline}</p>}
+      </div>
+      <div class="hero-pi">
+        <div class="hero-photo">
+          <img src={url('people/kyuhlee.jpg')} alt={`Portrait of ${pi.name}`} width="200" height="200" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+          <span class="hero-initials" hidden aria-hidden="true">{initials}</span>
+        </div>
+        <div class="hero-body">
+          <p class="eyebrow">Principal Investigator</p>
+          <p class="pi-name">{pi.name}</p>
+          <ul class="pi-titles">{pi.title.map((t) => <li>{t}</li>)}</ul>
+          <p class="pi-affil">{config.affiliation}</p>
+          <p class="pi-email"><a href={`mailto:${pi.email}`}>{pi.email}</a></p>
+          <p class="hero-cta">
+            <a class="btn secondary" href={PERSONAL} target="_blank" rel="noopener noreferrer">Personal page<span class="sr-only"> (opens in new tab)</span></a>
+          </p>
+        </div>
+      </div>
+      </div>
+      <aside class="board" aria-labelledby="board-title">
+        <p class="eyebrow">Now</p>
+        <h2 id="board-title">Current Projects</h2>
+        <ul>
+          {areas.map((a, i) => {
+            const n = projects[a.id] ?? 0;
+            return (
+              <li class={n === 0 ? 'idle' : undefined}>
+                <span class="board-dots" aria-hidden="true">{Array.from({ length: n }, () => <i></i>)}</span>
+                <span class="board-num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+                <span class="board-area">{a.title}</span>
+                <span class="board-count"><strong>{n}</strong><span class="sr-only"> ongoing {n === 1 ? 'project' : 'projects'}</span></span>
+              </li>
+            );
+          })}
+        </ul>
+        <p class="board-total"><strong>{totalProjects}</strong> ongoing projects</p>
+      </aside>
+    </div>
+  </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>{lab.about[0]}</p>
+    <p class="more"><a href={url('about/')}>Read more about the lab →</a></p>
+  </section>
+  <section id="research">
+    <h2>Research</h2>
+    <p>{lab.researchSummary}</p>
+    {areas.length > 0 && (
+      <ul class="grid">
+        {areas.map((a) => <li class="card"><h3>{a.title}</h3></li>)}
+      </ul>
+    )}
+    <p class="more"><a href={url('research/')}>Explore our research areas →</a></p>
+  </section>
+  <section id="publications">
+    <h2>Key Publications</h2>
+    <ul class="pubs">{recent.slice(0, 5).map((p) => <PubItem p={p} />)}</ul>
+    <p class="more"><a href={url('publications/')}>All publications →</a></p>
+  </section>
+  <section id="people">
+    <h2>People</h2>
+    <ul class="grid grid-3">{currentPeople.map((p) => <PersonCard person={p} />)}</ul>
+    <p class="more">{alum} alumni · <a href={url('people/')}>Meet the whole team →</a></p>
+  </section>
+</Base>

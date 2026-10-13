@@ -1,0 +1,19 @@
+---
+import Icon from './Icon.astro';
+const { p } = Astro.props;
+const labels: Record<string, string> = { pdf: 'PDF', doi: 'DOI', paper: 'Paper' };
+---
+<li id={p.id}>
+  <div class="t">{p.title}</div>
+  <div>{p.authors}</div>
+  <div class="muted">{p.venue}{p.abbr && <> <span class="badge venue">{p.abbr}</span></>}
+    {p.award && <> <span class="badge award"><Icon name="star" /> {p.award}</span></>}
+  </div>
+  {p.links?.length > 0 && (
+    <div class="pub-links">
+      {p.links.map((l: { type: string; url: string }) => (
+        <a href={l.url} target="_blank" rel="noopener noreferrer">{labels[l.type] ?? 'Link'}<Icon name="external" /><span class="sr-only"> ({p.title}, opens in new tab)</span></a>
+      ))}
+    </div>
+  )}
+</li>

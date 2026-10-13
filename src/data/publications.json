@@ -1,0 +1,740 @@
+[
+ {
+  "id": "s-p-2025-2025",
+  "title": "RaceDB: Detecting Request Race Vulnerabilities in Database-Backed Web Applications",
+  "authors": "An Chen, Yonghwi Kwon, and Kyu Hyung Lee",
+  "venue": "In Proceedings of the 46th IEEE Symposium on Security and Privacy",
+  "abbr": "S&P 2025",
+  "year": 2025,
+  "group": "2025",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/sp61157.2025.00029"
+   }
+  ]
+ },
+ {
+  "id": "camad-2025-2025",
+  "title": "Autoencoder-based Detection of Stealthy Under-billing and Over-billing Attacks via Manipulation of OCPP 2.0.1 Payloads",
+  "authors": "Aisha B Rahman, Md Sadman Siraj, Georgios Fragkos, Prabin Lamichhane, Alexander M Safonov, Ryan Sullivant, Jhaell A Jimenez, Junghwan Rhee, Kyu Hyung Lee, Dalton A Brucker-Hahn, Yung Ryn (Elisha) Choe, and Eirini Eleni Tsiropoulou",
+  "venue": "IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks",
+  "abbr": "CAMAD 2025",
+  "year": 2025,
+  "group": "2025",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/camad67323.2025.11229910"
+   }
+  ]
+ },
+ {
+  "id": "camad-2025-2025-2",
+  "title": "Reevaluating Optional Fields in OCPP 2.0.1: Preliminary Case Study by Spoofing State of Charge",
+  "authors": "Aisha B Rahman, Md Sadman Siraj, Eirini Eleni Tsiropoulou, Georgios Fragkos, Ryan Sullivant, Yung Ryn (Elisha) Choe, Junghwan Rhee, and Kyu Hyung Lee",
+  "venue": "IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks",
+  "abbr": "CAMAD 2025",
+  "year": 2025,
+  "group": "2025",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/camad67323.2025.11229895"
+   }
+  ]
+ },
+ {
+  "id": "acsac-2024-2024",
+  "title": "FA-SEAL: Forensically Analyzable Symmetric Encryption for Audit Logs",
+  "authors": "Basanta Chaulagain and Kyu Hyung Lee",
+  "venue": "In Proceedings of the 40th Annual Computer Security Applications Conference",
+  "abbr": "ACSAC 2024",
+  "year": 2024,
+  "group": "2024",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/acsac63791.2024.00065"
+   }
+  ]
+ },
+ {
+  "id": "rws-2024-2024",
+  "title": "Goaltender: Cloud-Based Defense and Response Tools for the DER Ecosystem",
+  "authors": "Yung Ryn Choe, Dalton A Brucker-Hahn, George Fragkos, Keshav Sreekumar, Bailey Nelson, Alexander Safonov, Ryan Sullivant, Aisha B Rahman, Sean Tsikteris, Md Sadman Siraj, Eirini Eleni Tsiropoulou, Jorge Pineda, Jay Johnson, Brian Tansy, Kyu Hyung Lee, Junghwan Rhee",
+  "venue": "2024 Resilience Week",
+  "abbr": "RWS 2024",
+  "year": 2024,
+  "group": "2024",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/rws62797.2024.10799447"
+   }
+  ]
+ },
+ {
+  "id": "security-2024-2024",
+  "title": "Unveiling IoT Security in Reality: A Firmware-Centric Journey",
+  "authors": "Nicolas Nino, Ruibo Lu, Wei Zhou, Kyu Hyung Lee, Ziming Zhao, and Le Guan",
+  "venue": "In Proceedings of the 33th USENIX Security Symposium",
+  "abbr": "Security 2024",
+  "year": 2024,
+  "group": "2024",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/nino"
+   }
+  ]
+ },
+ {
+  "id": "fie-2024-2024",
+  "title": "RustLIVE: Reducing the Learning Barriers of Rust Through Visualization",
+  "authors": "Diane B. Stephens, Kyu Hyung Lee, Mustakimur Rahman Khandaker",
+  "venue": "Frontiers in Education 2024",
+  "abbr": "FIE 2024",
+  "year": 2024,
+  "group": "2024",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1109/fie61694.2024.10893207"
+   }
+  ]
+ },
+ {
+  "id": "ndss-2023-2023",
+  "title": "SynthDB: Synthesizing Database via Program Analysis for Security Testing of Web Applications",
+  "authors": "An Chen, JiHo Lee, Basanta Chaulagain, Yonghwi Kwon, and Kyu Hyung Lee",
+  "venue": "In Proceedings of the 30th Network and Distributed System Security",
+  "abbr": "NDSS 2023",
+  "year": 2023,
+  "group": "2023",
+  "award": null,
+  "link": "https://www.ndss-symposium.org/ndss-paper/synthdb-synthesizing-database-via-program-analysis-for-security-testing-of-web-applications/",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.ndss-symposium.org/ndss-paper/synthdb-synthesizing-database-via-program-analysis-for-security-testing-of-web-applications/"
+   }
+  ]
+ },
+ {
+  "id": "linking-blockchain-techn-2023",
+  "title": "Linking Blockchain Technology and Digital Advertising: How Blockchain Technology Can Enhance Digital Advertising to Be More Effective, Efficient, and Trustworthy",
+  "authors": "Jooyoung Kim, Kyu Hyung Lee, and Jaemin Kim",
+  "venue": "Journal of Business Research",
+  "abbr": null,
+  "year": 2023,
+  "group": "2023",
+  "award": null,
+  "link": "https://doi.org/10.1016/j.jbusres.2023.113819",
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1016/j.jbusres.2023.113819"
+   }
+  ]
+ },
+ {
+  "id": "pmc-2022-2022",
+  "title": "Privacy invasion via smart-home hub in personal area networks",
+  "authors": "Omid Setayeshfar, Karthika Subramani, Xingzi Yuan, Raunak Dey, Dezhi Hong, In Kee Kim, and Kyu Hyung Lee",
+  "venue": "In the Pervasive and Mobile Computing Journal",
+  "abbr": "PMC 2022",
+  "year": 2022,
+  "group": "2022",
+  "award": null,
+  "link": "https://www.sciencedirect.com/science/article/abs/pii/S1574119222000955",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1574119222000955"
+   }
+  ]
+ },
+ {
+  "id": "icse-2022-2022",
+  "title": "Hiding Critical Program Components via Ambiguous Translation",
+  "authors": "Chijung Jung, Doowon Kim, An Chen, Weihang Wang, Yunhui Zheng, Kyu Hyung Lee, and Yonghwi Kwon",
+  "venue": "In Proc. of the 44th International Conference on Software Engineering",
+  "abbr": "ICSE 2022",
+  "year": 2022,
+  "group": "2022",
+  "award": null,
+  "link": "https://dl.acm.org/doi/abs/10.1145/3510003.3510139",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3510003.3510139"
+   }
+  ]
+ },
+ {
+  "id": "ase-nier-2021-2021",
+  "title": "Defeating Program Analysis Techniques via Ambiguous Translation",
+  "authors": "Chijung Jung, Doowon Kim, Weihang Wang, Yunhui Zheng, Kyu Hyung Lee, and Yonghwi Kwon",
+  "venue": "In Proc. of 36th IEEE/ACM International Conference on Automated Software Engineering (New Ideas and Emerging Results Track)",
+  "abbr": "ASE NIER 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://ieeexplore.ieee.org/document/9678912",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://ieeexplore.ieee.org/document/9678912"
+   }
+  ]
+ },
+ {
+  "id": "ieee-tifs-2021-2021",
+  "title": "TRACE: Enterprise-Wide Provenance Tracking for Real-Time APT Detection",
+  "authors": "Hassaan Irshad, Gabriela Ciocarlie, Ashish Gehani, Vinod Yegneswaran, Kyu Hyung Lee, Jignesh Patel, Somesh Jha, Yonghwi Kwon, Dongyan Xu, and Xiangyu Zhang",
+  "venue": "In IEEE Transactions on Information Forensics and Security",
+  "abbr": "IEEE TIFS 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://ieeexplore.ieee.org/document/9492041",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://ieeexplore.ieee.org/document/9492041"
+   }
+  ]
+ },
+ {
+  "id": "smartcomp-21-2021",
+  "title": "ChatterHub: Privacy Invasion via Smart Home Hub",
+  "authors": "Omid Setayeshfar, Karthika Subramani, Xingzi Yuan, Raunak Dey, Dezhi Hong, Kyu Hyung Lee, In Kee Kim",
+  "venue": "In Proceedings of the IEEE International Conference on Smart Computing",
+  "abbr": "SMARTCOMP 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://ieeexplore.ieee.org/document/9556231",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://ieeexplore.ieee.org/document/9556231"
+   }
+  ]
+ },
+ {
+  "id": "dimva-21-2021",
+  "title": "Find My Sloths: Automated Comparative Analysis of How Real Enterprise Computers Keep Up with the Software Update Races",
+  "authors": "Omid Setayeshfar, John Junghwan Rhee, Chung Hwan Kim, Kyu Hyung Lee",
+  "venue": "In Proceedings of the 8th Conference on Detection of Intrusions and Malware & Vulnerability Assessment",
+  "abbr": "DIMVA 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://link.springer.com/chapter/10.1007/978-3-030-80825-9_11",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-030-80825-9_11"
+   }
+  ]
+ },
+ {
+  "id": "graalf-supporting-graph-2021",
+  "title": "Graalf: Supporting graphical analysis of audit logs for forensics",
+  "authors": "Omid Setayeshfar, Christian Adkins, Matthew Jones, Kyu Hyung Lee, Prashant Doshi",
+  "venue": "In Software Impacts",
+  "abbr": null,
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://www.sciencedirect.com/science/article/pii/S2665963821000166",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2665963821000166"
+   }
+  ]
+ },
+ {
+  "id": "aaai-21-2021",
+  "title": "A Novel AI-based Methodology for Identifying Cyber Attacks in Honey Pots",
+  "authors": "Muhammed AbuOdeh, Christian Adkins, Omid Setayeshfar, Prashant Doshi, Kyu Hyung Lee",
+  "venue": "In Innovative Applications of AI, Emerging Applications",
+  "abbr": "AAAI 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://www.semanticscholar.org/paper/A-Novel-AI-based-Methodology-for-Identifying-Cyber-AbuOdeh-Adkins/b6050bbc2a61fcfdc4204f009ad75ee21d2dee5e",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.semanticscholar.org/paper/A-Novel-AI-based-Methodology-for-Identifying-Cyber-AbuOdeh-Adkins/b6050bbc2a61fcfdc4204f009ad75ee21d2dee5e"
+   }
+  ]
+ },
+ {
+  "id": "ndss-21-2021",
+  "title": "C2SR: Cybercrime Scene Reconstruction for Post-mortem Forensic Analysis",
+  "authors": "Yonghwi Kwon, Weihang Wang, Jinho Jung, Kyu Hyung Lee, Roberto Perdisci",
+  "venue": "In Proceedings of the 28th Network and Distributed System Security",
+  "abbr": "NDSS 2021",
+  "year": 2021,
+  "group": "2021",
+  "award": null,
+  "link": "https://www.ndss-symposium.org/ndss-paper/c2sr-cybercrime-scene-reconstruction-for-post-mortem-forensic-analysis/",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://www.ndss-symposium.org/ndss-paper/c2sr-cybercrime-scene-reconstruction-for-post-mortem-forensic-analysis/"
+   }
+  ]
+ },
+ {
+  "id": "imc-20-2020",
+  "title": "When Push Comes to Ads: Measuring the Rise of (Malicious) Push Advertising",
+  "authors": "Karthika Subramani, Xingzi Yuan, Omid Setayeshfar, Phani Vadrevu, Kyu Hyung Lee, Roberto Perdisci",
+  "venue": "In Proceedings of the ACM Internet Measurement Conference 2020",
+  "abbr": "IMC 2020",
+  "year": 2020,
+  "group": "2020",
+  "award": null,
+  "link": "https://dl.acm.org/doi/10.1145/3419394.3423631",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "https://dl.acm.org/doi/10.1145/3419394.3423631"
+   }
+  ]
+ },
+ {
+  "id": "security-19-2019",
+  "title": "Fuzzification: Anti-Fuzzing Techniques",
+  "authors": "Jinho Jung, Hong Hu, David Solodukhin, Daniel Pagan, Kyu Hyung Lee, Taesoo Kim",
+  "venue": "In Proceedings of the 28th USENIX Security Symposium",
+  "abbr": "Security 2019",
+  "year": 2019,
+  "group": "2019",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/sec19.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/sec19.pdf"
+   }
+  ]
+ },
+ {
+  "id": "atc-18-2018",
+  "title": "Kernel-Supported Cost-Effective Audit Logging for Causality Tracking",
+  "authors": "Shiqing Ma, Juan Zhai, Yonghwi Kwon, Kyu Hyung Lee, Xiangyu Zhang, Gabriela Ciocarlie, Ashish Gehani, Vinod Yegneswaran, Dongyan Xu, Somesh Jha",
+  "venue": "In Proceedings of the 2018 Usenix Annual Technical Conference",
+  "abbr": "ATC 2018",
+  "year": 2018,
+  "group": "2018",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/atc18.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/atc18.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ndss-18-2018",
+  "title": "JSgraph: Enabling Reconstruction of Web Attacks via Efficient Tracking of Live In-Browser JavaScript Executions",
+  "authors": "Bo Li, Phani Vadrevu, Kyu Hyung Lee, Roberto Perdisci",
+  "venue": "In Proceedings of the 25th Network and Distributed System Security",
+  "abbr": "NDSS 2018",
+  "year": 2018,
+  "group": "2018",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ndss18_2.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ndss18_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ndss-18-2018-2",
+  "title": "MCI : Modeling-based Causality Inference in Audit Logging for Attack Investigation",
+  "authors": "Yonghwi Kwon, Fei Wang, Weihang Wang, Kyu Hyung Lee, Wen-Chuan Lee, Shiqing Ma, Xiangyu Zhang, Dongyan Xu, Somesh Jha, Gabriela Ciocarlie, Ashish Gehani, Vinod Yegneswaran",
+  "venue": "In Proceedings of the 25th Network and Distributed System Security",
+  "abbr": "NDSS 2018",
+  "year": 2018,
+  "group": "2018",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ndss18_1.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ndss18_1.pdf"
+   }
+  ]
+ },
+ {
+  "id": "security-17-2017",
+  "title": "MPI: Multiple Perspective Attack Investigation with Semantic Aware Execution Partitioning",
+  "authors": "Shiqing Ma, Juan Zhai, Fei Wang, Kyu Hyung Lee, Xiangyu Zhang, Dongyan Xu",
+  "venue": "In Proceedings of the 26th Usenix Security Symposium",
+  "abbr": "Security 2017",
+  "year": 2017,
+  "group": "2017",
+  "award": "Distinguished Paper Award",
+  "link": "https://kyuhlee.github.io/publications/sec17.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/sec17.pdf"
+   }
+  ]
+ },
+ {
+  "id": "asiaccs-17-2017",
+  "title": "DroidForensics: Accurate Reconstruction of Android Attacks via Multi-layer Forensic Logging",
+  "authors": "Xingzi Yuan, Omid Setayeshfar, Hongfei Yan, Pranav Panage, Xuetao Wei, Kyu Hyung Lee",
+  "venue": "In Proceedings of ACM Asia Conference on Computer and Communications Security",
+  "abbr": "AsiaCCS 2017",
+  "year": 2017,
+  "group": "2017",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/asiaccs17.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/asiaccs17.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ndss-17-2017",
+  "title": "Enabling Reconstruction of Attacks on Users via Efficient Browsing Snapshots",
+  "authors": "Phani Vadrevu, Jienan Liu, Bo Li, Babak Rahbarinia, Kyu Hyung Lee, Roberto Perdisci",
+  "venue": "In Proceedings of the 24th Network and Distributed System Security",
+  "abbr": "NDSS 2017",
+  "year": 2017,
+  "group": "2017",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ndss17_2.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ndss17_2.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ndss-17-2017-2",
+  "title": "A2C: Self Destructing Exploit Executions via Input Perturbation",
+  "authors": "Yonghwi Kwon, Brendan Saltaformaggio, I Luk Kim, Kyu Hyung Lee, Xiangyu Zhang, Dongyan Xu",
+  "venue": "In Proceedings of the 24th Network and Distributed System Security",
+  "abbr": "NDSS 2017",
+  "year": 2017,
+  "group": "2017",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ndss17_1.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ndss17_1.pdf"
+   }
+  ]
+ },
+ {
+  "id": "globecom-16-2016",
+  "title": "emphaSSL: Towards Emphasis as a Mechanism to Harden Networking Security in Android Apps",
+  "authors": "Xuetao Wei, Michael Wolf, Lei Guo, Kyu Hyung Lee, Ming-Chun Huang, and Nan Niu",
+  "venue": "In Proceedings of IEEE GLOBCOM",
+  "abbr": "Globecom 2016",
+  "year": 2016,
+  "group": "2016",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/gc16.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/gc16.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sbbox-a-tamper-resistan-2016",
+  "title": "SBBox: A Tamper-Resistant Digital Archiving System",
+  "authors": "Monjur Alam, Zhe Cheng Lee, Chrysostomos Nicopoulos, Kyu Hyung Lee, Jongman Kim, Junghee Lee",
+  "venue": "In International Journal of Cyber-Security and Digital Forensics (IJCSDF) 2016 Volume 5",
+  "abbr": null,
+  "year": 2016,
+  "group": "2016",
+  "award": null,
+  "link": "http://sdiwc.net/digital-library/sbbox-a-tamperresistant-digital-archiving-system",
+  "type": null,
+  "links": [
+   {
+    "type": "paper",
+    "url": "http://sdiwc.net/digital-library/sbbox-a-tamperresistant-digital-archiving-system"
+   }
+  ]
+ },
+ {
+  "id": "fse-16-2016",
+  "title": "PerfGuard: Binary-Centric Application Performance Monitoring in Production Environments",
+  "authors": "Chung Hwan Kim, Junghwan Rhee, Kyu Hyung Lee, Xiangyu Zhang and Dongyan Xu",
+  "venue": "In Proceedings of ACM SIGSOFT International Symposium on the Foundations of Software Engineering",
+  "abbr": "FSE 2016",
+  "year": 2016,
+  "group": "2016",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/fse16.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/fse16.pdf"
+   }
+  ]
+ },
+ {
+  "id": "acsac-15-2015",
+  "title": "Accurate, Low Cost and Instrumentation-Free Security Audit Logging for Windows",
+  "authors": "Shiqing Ma, Kyu Hyung Lee, Chung Hwan Kim, Junghwan Rhee, Xiangyu Zhang and Dongyan Xu",
+  "venue": "In Proceedings of Annual Computer Security Applications Conference",
+  "abbr": "ACSAC 2015",
+  "year": 2015,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/acsac15.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/acsac15.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ecoop-14-2014",
+  "title": "Infrastructure-Free Logging and Replay of Concurrent Execution on Multiple Cores",
+  "authors": "Kyu Hyung Lee, Dohyeong Kim and Xiangyu Zhang",
+  "venue": "In Proceedings of the European Conference on Object-Oriented Programming",
+  "abbr": "ECOOP 2014",
+  "year": 2014,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ecoop14.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ecoop14.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ccs-13-2013",
+  "title": "LogGC: Garbage Collecting Audit Log",
+  "authors": "Kyu Hyung Lee, Xiangyu Zhang and Dongyan Xu",
+  "venue": "In Proceedings of ACM Conference on Computer and Communications Security",
+  "abbr": "CCS 2013",
+  "year": 2013,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ccs13.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ccs13.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ndss-13-2013",
+  "title": "High Accuracy Attack Provenance via Binary-Based Execution Partition",
+  "authors": "Kyu Hyung Lee, Xiangyu Zhang and Dongyan Xu",
+  "venue": "In Proceedings of the 20th Network and Distributed System Security",
+  "abbr": "NDSS 2013",
+  "year": 2013,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/ndss13.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/ndss13.pdf"
+   }
+  ]
+ },
+ {
+  "id": "dsn-11-2011",
+  "title": "Unified Debugging of Distributed Systems with Recon",
+  "authors": "Kyu Hyung Lee, Nick Sumner, Xiangyu Zhang and Patrick Eugster",
+  "venue": "In Proceedings of IEEE/IFIP International Conference on Dependable Systems and Networks",
+  "abbr": "DSN 2011",
+  "year": 2011,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/dsn11.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/dsn11.pdf"
+   }
+  ]
+ },
+ {
+  "id": "pldi-11-2011",
+  "title": "Toward Generating Reducible Replay Log",
+  "authors": "Kyu Hyung Lee, Yunhui Zheng, Nick Sumner and Xiangyu Zhang",
+  "venue": "In Proceedings of ACM SIGPLAN conference on Programming Language Design and Implementation",
+  "abbr": "PLDI 2011",
+  "year": 2011,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/pldi11.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/pldi11.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sosp-09-2009",
+  "title": "PRES: Probabilistic Replay with Execution Sketching on Multiprocessors",
+  "authors": "Soyeon Park, Weiwei Xiong, Zuoning Yin, Rini Kaushik, Kyu H. Lee, Shan Lu and Yuanyuan Zhou",
+  "venue": "In Proceedings of ACM Symposium on Operating Systems Principles",
+  "abbr": "SOSP 2009",
+  "year": 2009,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/sosp09.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/sosp09.pdf"
+   }
+  ]
+ },
+ {
+  "id": "icdcs-08-2008",
+  "title": "PFC: Transparent Optimization of Existing Prefetching Strategies for Multi-level Storage Systems",
+  "authors": "Zhe Zhang*, Kyuhyung Lee*, Xiaosong Ma, and Yuanyuan Zhou",
+  "venue": "In Proceedings of International Conference on Distributed Computing Systems",
+  "abbr": "ICDCS 2008",
+  "year": 2008,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/icdcs08.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/icdcs08.pdf"
+   }
+  ]
+ },
+ {
+  "id": "sdm-08-2008",
+  "title": "CISpan: Comprehensive Incremental Mining Algorithms of Closed Sequential Patterns for Multi-Versional Software Mining",
+  "authors": "Ding Yuan, Kyuhyung Lee, Hong Cheng, Gopal Krishna, Zhenmin Li, Xiao Ma, Yuanyuan Zhou and Jiawei Han",
+  "venue": "In Proceedings of SIAM International Conference on Data Mining",
+  "abbr": "SDM 2008",
+  "year": 2008,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/sdm08.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/sdm08.pdf"
+   }
+  ]
+ },
+ {
+  "id": "hotpower-08-2008",
+  "title": "Augmenting RAID with an SSD for Energy Relief",
+  "authors": "Hyo J. Lee, Kyu H. Lee and Sam H. Noh",
+  "venue": "In Workshop on Power Aware Computing and Systems",
+  "abbr": "HotPower 2008",
+  "year": 2008,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/hotpower08.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/hotpower08.pdf"
+   }
+  ]
+ },
+ {
+  "id": "acst-08-2008",
+  "title": "Write-Aware Buffer Cache Management Scheme for Nonvolatile RAM",
+  "authors": "Kyu Hyung Lee, In Hwan Doh, Jongmoo Choi, Donghee Lee, and Sam H. Noh",
+  "venue": "In Proceedings of International Conference on Advances in Computer Science and Technology",
+  "abbr": "ACST 2008",
+  "year": 2008,
+  "group": "2015 and Before",
+  "award": null,
+  "link": "https://kyuhlee.github.io/publications/acst07.pdf",
+  "type": null,
+  "links": [
+   {
+    "type": "pdf",
+    "url": "https://kyuhlee.github.io/publications/acst07.pdf"
+   }
+  ]
+ }
+]

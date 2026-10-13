@@ -1,0 +1,39 @@
+{
+  "name": "FAS³A",
+  "description": "FAS³A (Forensics, Auditing, and Security of Software, Systems, and Agents) lab at the School of Computing, University of Georgia.",
+  "language": "en",
+  "affiliation": "School of Computing, University of Georgia",
+  "email": "kyuhlee@cs.uga.edu",
+  "address": "420 Boyd Research and Education Center, University of Georgia, Athens, GA",
+  "recruiting": {
+    "open": true
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "path": ""
+    },
+    {
+      "label": "About",
+      "path": "about/"
+    },
+    {
+      "label": "Research",
+      "path": "research/"
+    },
+    {
+      "label": "Publications",
+      "path": "publications/"
+    },
+    {
+      "label": "People",
+      "path": "people/"
+    },
+    {
+      "label": "Join",
+      "path": "join/"
+    }
+  ],
+  "fullName": "Forensics, Auditing, and Security of Software, Systems, and Agents",
+  "pronunciation": "FASA"
+}

@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../utils';
+---
+<Base title="Search" description="Search the lab website.">
+  <h1>Search</h1>
+  <form class="search-page-form" role="search" action={url('search/')} method="get">
+    <label class="sr-only" for="q">Search this site</label>
+    <input id="q" name="q" type="search" placeholder="Search publications, people, research…" autocomplete="off" />
+    <button class="btn primary" type="submit">Search</button>
+  </form>
+  <p id="search-status" class="muted" aria-live="polite"></p>
+  <ol id="search-results" class="search-results" data-index={url('search-index.json')}></ol>
+  <noscript><p>Search needs JavaScript. You can browse <a href={url('publications/')}>Publications</a> and <a href={url('people/')}>People</a> directly.</p></noscript>
+</Base>
+<script>
+  type Item = { type: string; title: string; text: string; href: string };
+  const input = document.getElementById('q') as HTMLInputElement;
+  const status = document.getElementById('search-status')!;
+  const list = document.getElementById('search-results')!;
+    let index: Item[] = [];
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const norm = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '');
+
+  function run(q: string) {
+    const terms = norm(q).split(/\s+/).filter(Boolean);
+    list.innerHTML = '';
+    if (!terms.length) { status.textContent = ''; return; }
+    const hits = index
+      .map((it) => {
+        const title = norm(it.title), body = norm(`${it.type} ${it.text}`);
+        if (!terms.every((t) => title.includes(t) || body.includes(t))) return null;
+        return { it, score: terms.reduce((s, t) => s + (title.includes(t) ? 3 : 1), 0) };
+      })
+      .filter((h): h is { it: Item; score: number } => h !== null)
+      .sort((a, b) => b.score - a.score);
+    status.textContent = `${hits.length} result${hits.length === 1 ? '' : 's'} for “${q}”`;
+    list.innerHTML = hits
+      .map(({ it }) => `<li><span class="eyebrow">${esc(it.type)}</span><a href="${esc(it.href)}">${esc(it.title)}</a><p>${esc(it.text.slice(0, 180))}${it.text.length > 180 ? '…' : ''}</p></li>`)
+      .join('');
+  }
+
+  const q = new URLSearchParams(location.search).get('q') ?? '';
+  input.value = q;
+  fetch(list.dataset.index!)
+    .then((r) => r.json())
+    .then((data: Item[]) => { index = data; run(input.value); })
+    .catch(() => { status.textContent = 'Search is unavailable right now.'; });
+  input.addEventListener('input', () => {
+    run(input.value);
+    const u = new URL(location.href);
+    input.value ? u.searchParams.set('q', input.value) : u.searchParams.delete('q');
+    history.replaceState(null, '', u);
+  });
+</script>
