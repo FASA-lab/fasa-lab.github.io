@@ -33,6 +33,16 @@ const isActive = (p: string) => (p === '' ? path === home : path.endsWith('/' + 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" />
+    {config.googleSiteVerification && <meta name="google-site-verification" content={config.googleSiteVerification} />}
+    {config.googleAnalyticsId && <>
+      <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsId}`}></script>
+      <script is:inline define:vars={{ gaId: config.googleAnalyticsId }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      </script>
+    </>}
     <title>{fullTitle}</title>
   </head>
   <body>

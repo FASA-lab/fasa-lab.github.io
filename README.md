@@ -24,3 +24,9 @@ Keep internal links relative to `import.meta.env.BASE_URL`; never hardcode the r
 ## Assets and licensing
 - School of Computing logo (`public/brand/soc-logo-horizontal.png`, from computing.uga.edu), UGA logo (`public/brand/uga-logo-horizontal.png`) and favicon (`public/brand/favicon.ico`, from www.uga.edu) used with the site owner's approval (confirm formal UGA approval before public launch); source: https://brand.uga.edu/wp-content/uploads/UGA_logo_ExtremeHoriz_FC_MARCM.png. Do not recolor, distort, or add effects.
 - `public/people/uga-arch.jpg`: "The Arch, UGA" by JJonahJackalope, CC BY-SA 4.0 (credited on the People page).
+
+## Google Analytics / Search Console
+Set the IDs in `site.config.json` and push; both tags render only when the value is non-empty.
+- `googleAnalyticsId`: GA4 measurement ID (`G-XXXXXXXXXX`).
+- `googleSiteVerification`: the `content` value of Search Console's "HTML tag" verification method.
+- Sitemap to submit in Search Console: `https://fasa-lab.github.io/sitemap-index.xml`.
