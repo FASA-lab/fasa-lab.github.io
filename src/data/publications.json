@@ -1,5 +1,41 @@
 [
  {
+  "id": "securecomm-2026",
+  "title": "The Bridge to the Quantum Fortress: How Do Hybrid Cloud Attacks Exploit the Quantum Core?",
+  "authors": "Prabin Lamichhane and Kyu Hyung Lee",
+  "venue": "In Proceedings of the International Conference on Security and Privacy in Communication Networks (SecureComm)",
+  "abbr": "SecureComm 2026",
+  "year": 2026,
+  "group": "2026",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.1007/978-3-032-32764-2_25"
+   }
+  ]
+ },
+ {
+  "id": "future-internet-2026",
+  "title": "Unsupervised Detection of SOC Spoofing in OCPP 2.0.1 EV Charging Communication Protocol Using One-Class SVM",
+  "authors": "Aisha B. Rahman, Md Sadman Siraj, Eirini Eleni Tsiropoulou, Georgios Fragkos, Ryan Sullivant, Yung Ryn Choe, Jhaell Jimenez, Junghwan Rhee, and Kyu Hyung Lee",
+  "venue": "Future Internet, 18(1), 60",
+  "abbr": "Future Internet 2026",
+  "year": 2026,
+  "group": "2026",
+  "award": null,
+  "link": null,
+  "type": null,
+  "links": [
+   {
+    "type": "doi",
+    "url": "https://doi.org/10.3390/fi18010060"
+   }
+  ]
+ },
+ {
   "id": "s-p-2025-2025",
   "title": "RaceDB: Detecting Request Race Vulnerabilities in Database-Backed Web Applications",
   "authors": "An Chen, Yonghwi Kwon, and Kyu Hyung Lee",

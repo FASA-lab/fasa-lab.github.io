@@ -15,6 +15,14 @@
   "photo": "people/junil-yeo.jpg"
  },
  {
+  "name": "Chan Aristella Lu",
+  "role": "Ph.D.",
+  "status": "current",
+  "link": "https://scholar.google.com/citations?hl=en&user=in1Nql8AAAAJ&view_op=list_works&sortby=pubdate",
+  "photo": "people/chan-aristella-lu.jpg",
+  "email": "chan.lu at uga.edu"
+ },
+ {
   "name": "Dipendra Shrestha",
   "role": "M.S.",
   "status": "current",
@@ -24,7 +32,8 @@
  {
   "name": "An Chen",
   "role": "Ph.D.",
-  "status": "alumni"
+  "status": "alumni",
+  "next": "Meta"
  },
  {
   "name": "Basanta Chaulagain",
@@ -34,12 +43,14 @@
  {
   "name": "Kevin Jain",
   "role": "M.S.",
-  "status": "alumni"
+  "status": "alumni",
+  "next": "Cloudflare"
  },
  {
   "name": "Josh Messitte",
   "role": "M.S.",
-  "status": "alumni"
+  "status": "alumni",
+  "next": "Meta"
  },
  {
   "name": "Xingzi Yuan",
@@ -53,7 +64,7 @@
   "role": "Ph.D.",
   "year": 2021,
   "status": "alumni",
-  "next": "Facebook"
+  "next": "Meta"
  },
  {
   "name": "Ruoyan Cai",
@@ -88,7 +99,7 @@
  {
   "name": "Lovina D'mello",
   "status": "alumni",
-  "next": "Oracle"
+  "next": "NVIDIA"
  },
  {
   "name": "Pranav Panage",
