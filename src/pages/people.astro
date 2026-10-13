@@ -31,5 +31,4 @@ const alum = people.filter((p) => p.status === 'alumni');
     <thead><tr><th scope="col">Name</th><th scope="col">Current position</th></tr></thead>
     <tbody>{alum.map((p) => <tr><td>{p.name}</td><td>{p.next ?? '—'}</td></tr>)}</tbody>
   </table>
-  <p class="muted credit"><small>Photo of the UGA Arch: <a href="https://commons.wikimedia.org/wiki/File:The_Arch,_UGA.jpg" target="_blank" rel="noopener noreferrer">“The Arch, UGA”</a> by JJonahJackalope, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a> (resized and cropped to a thumbnail).</small></p>
 </Base>

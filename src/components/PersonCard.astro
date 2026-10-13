@@ -1,15 +1,13 @@
 ---
-// Person card: photo (square crop) if present, else initials avatar.
+// Person card: photo (round crop) if present, else a neutral silhouette.
 import { url } from '../utils';
 const { person } = Astro.props;
 const name: string = person.name;
-const initials = name.split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
-const tone = [...name].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7) % 4;
 ---
 <li class="card person">
   {person.photo
     ? <img class="avatar photo" src={url(person.photo)} alt={name} width="72" height="72" loading="lazy" />
-    : <span class={`avatar tone-${tone}`} aria-hidden="true">{initials}</span>}
+    : <span class="avatar avatar-blank" aria-hidden="true"><svg viewBox="0 0 64 64" focusable="false"><circle cx="32" cy="24" r="12" /><path d="M10 60c0-12.2 9.8-20 22-20s22 7.8 22 20z" /></svg></span>}
   <div class="person-body">
     <h3>{person.link ? <a href={person.link} target="_blank" rel="noopener noreferrer">{name}<span class="sr-only"> (opens in new tab)</span></a> : name}</h3>
     {person.role && <div class="role">{person.role}</div>}

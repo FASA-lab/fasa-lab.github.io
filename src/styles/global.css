@@ -370,3 +370,6 @@ a.lockup{flex-direction:row;align-items:center}
 .grid-3 .person-body .email-text{display:inline-block;margin-top:var(--s1);white-space:nowrap;font-size:.88rem}
 /* Four current students: balanced 2 x 2 instead of 3 + 1 */
 @media (min-width:62rem){.grid-3:has(> :nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* No photo: neutral ID-photo style silhouette */
+.avatar.avatar-blank{background:var(--soft2);border:0;overflow:hidden;align-items:end;box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--line-strong)}
+.avatar.avatar-blank svg{width:100%;height:100%;fill:#b8b1a5}
