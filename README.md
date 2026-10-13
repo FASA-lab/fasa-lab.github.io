@@ -2,7 +2,7 @@
 
 Forensics, Auditing, and Security of Software, Systems, and Agents (FAS³A) lab, School of Computing, University of Georgia.
 
-Astro static site deployed to GitHub Pages via GitHub Actions: https://fasa-lab.github.io/lab-web/
+Astro static site deployed to GitHub Pages via GitHub Actions: https://fasa-lab.github.io/
 
 ## Develop
 ```
@@ -15,7 +15,7 @@ npm run build
 Edit `site.config.json` (single source for name/description/language).
 
 ## Deployment
-- Repository: `FASA-lab/lab-web`; Settings → Pages → Source: **GitHub Actions**.
+- Repository: `FASA-lab/fasa-lab.github.io` (the org Pages repo, served at the domain root); Settings → Pages → Source: **GitHub Actions**.
 - Every push to `main` builds and deploys; the workflow derives `SITE_URL`/`BASE_PATH` from the owner/repo name, so a rename or transfer needs no code change.
 - For a custom domain or an `<org>.github.io` repo, drop `BASE_PATH` in `.github/workflows/deploy.yml` and add `public/CNAME`.
 
