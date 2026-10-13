@@ -66,7 +66,7 @@ const isActive = (p: string) => (p === '' ? path === home : path.endsWith('/' + 
       <div class="wrap footer-cols">
         <div><a class="lockup" href="https://computing.uga.edu/" aria-label="School of Computing, University of Georgia"><span class="shield" aria-hidden="true"><img src={url('brand/soc-logo-horizontal.png')} alt="" width="1800" height="596" /></span><span class="lockup-text"><span class="l1">School of Computing</span><span class="l2">University of Georgia</span></span></a><p class="footer-lab">{config.name}</p></div>
         <div><h2>Contact</h2>
-          <address>{config.address}<br /><a href={`mailto:${config.email}`}>{config.email}</a></address></div>
+          <address>{config.address}<br /><span class="email-text">{config.email}</span></address></div>
         <div><h2>Links</h2>
           <ul>{config.nav.map((n) => <li><a href={url(n.path)}>{n.label}</a></li>)}</ul></div>
       </div>

@@ -364,3 +364,6 @@ a.lockup{flex-direction:row;align-items:center}
 .masthead-lab-name.wordmark{font-size:2rem;line-height:1;color:var(--fg)}
 .masthead-lab-kicker{font:500 .7rem/1.3 var(--sans);letter-spacing:.04em;text-transform:none;color:var(--muted);max-width:15rem;text-align:right}
 .wordmark sup{margin:0 -.02em 0 .03em;letter-spacing:0}
+
+/* Obfuscated email ("name at domain"): plain text, no mailto link, so scrapers don't harvest it */
+.email-text{font-family:var(--sans);color:var(--fg)}

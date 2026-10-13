@@ -8,5 +8,5 @@ import lab from '../data/lab.json';
   <p><span class="badge">{config.recruiting.open ? 'Currently recruiting' : 'Not currently recruiting'}</span></p>
   <p class="lead">{lab.join.intro}</p>
   <h2 id="contact">Contact</h2>
-  <address class="join-contact">{lab.pi.name}<br />{config.address}<br /><a href={`mailto:${config.email}`}>{config.email}</a></address>
+  <address class="join-contact">{lab.pi.name}<br />{config.address}<br /><span class="email-text">{config.email}</span></address>
 </Base>

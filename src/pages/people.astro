@@ -17,7 +17,7 @@ const alum = people.filter((p) => p.status === 'alumni');
     <h3><a href={pi.home} target="_blank" rel="noopener noreferrer">{pi.name}</a></h3>
     {pi.title.map((t) => <div>{t}</div>)}
     <div class="muted">{pi.affiliation}</div>
-    <a class="email" href={`mailto:${pi.email}`}>{pi.email}</a><br />
+    <span class="email email-text">{pi.email}</span><br />
     <a href={pi.home} target="_blank" rel="noopener noreferrer">Personal page<span class="sr-only"> (opens in new tab)</span></a>
     {pi.bio && <p>{pi.bio}</p>}
     </div>

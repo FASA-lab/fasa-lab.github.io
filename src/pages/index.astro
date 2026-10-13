@@ -43,7 +43,7 @@ const initials = pi.name.split(' ').map((w) => w[0]).join('');
           <p class="pi-name">{pi.name}</p>
           <ul class="pi-titles">{pi.title.map((t) => <li>{t}</li>)}</ul>
           <p class="pi-affil">{config.affiliation}</p>
-          <p class="pi-email"><a href={`mailto:${pi.email}`}>{pi.email}</a></p>
+          <p class="pi-email"><span class="email-text">{pi.email}</span></p>
           <p class="hero-cta">
             <a class="btn secondary" href={PERSONAL} target="_blank" rel="noopener noreferrer">Personal page<span class="sr-only"> (opens in new tab)</span></a>
           </p>
